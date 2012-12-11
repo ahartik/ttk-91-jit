@@ -1,0 +1,13 @@
+;Computes 2^n
+
+LOAD R0, =1
+LOAD R1, =1
+LOAD R3, =10101
+IN R2
+SUB R1, R2 ; negative input+1
+loop JPOS R1, end
+
+ADD R1, =1
+MUL R0, =2
+JPOS R0, loop ; always jump
+end OUT R0

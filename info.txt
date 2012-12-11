@@ -1,0 +1,11 @@
+IN
+OUT
+
+ADD
+SUB
+MUL
+
+JPOS Rj  
+
+HALT
+

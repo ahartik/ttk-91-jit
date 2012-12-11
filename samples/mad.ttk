@@ -1,0 +1,11 @@
+;Computes A * B + C
+
+IN R0
+IN R1
+IN R2
+
+MUL R0, R1
+ADD R0, R2
+
+OUT R0
+
